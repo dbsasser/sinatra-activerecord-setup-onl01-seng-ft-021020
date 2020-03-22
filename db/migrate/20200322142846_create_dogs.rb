@@ -3,10 +3,10 @@ class CreateDogs < ActiveRecord::Migration[5.2]
     create.table :dogs do |t|
       t.string :name
       t.string :breed
-    end 
+    end
   end
 
   def down
-    drop_table :dogs 
+    drop_table :dogs
   end
 end
